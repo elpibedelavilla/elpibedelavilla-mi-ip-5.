@@ -114,15 +114,7 @@ public class MainActivity extends Activity {
         header.setOrientation(LinearLayout.VERTICAL);
         header.setGravity(Gravity.CENTER);
 
-        TextView title = text(
-                "El Pibe de la Villa",
-                small ? 30 : 48,
-                LIGHT_CYAN, true);
-
-        title.setShadowLayer(
-                dp(12), 0, 0, CYAN);
-
-        header.addView(title);
+      // Título integrado en la imagen de fondo
 
         TextView subtitle = text(
                 "M I   I P",
