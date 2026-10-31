@@ -116,10 +116,6 @@ public class MainActivity extends Activity {
 
       // Título integrado en la imagen de fondo
 
-        TextView subtitle = text(
-                "M I   I P",
-                small ? 15 : 22,
-                Color.WHITE, true);
 
         header.addView(subtitle);
 
