@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
       // Título integrado en la imagen de fondo
 
 
-        header.addView(subtitle);
+       
 
         content.addView(header,
                 new LinearLayout.LayoutParams(-1, 0, 1.1f));
